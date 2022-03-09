@@ -1,0 +1,12 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    url : jdbc:h2:tcp://localhost/~/test
+    driver-class-name : org.h2.Driver
+    username : sa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      # 자동 테이블 생성 기능은 필요 없음
